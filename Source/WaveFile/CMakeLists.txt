@@ -8,4 +8,4 @@ include(${PROJECT_SOURCE_DIR}/CMakeSupport/CMakeLists.CompilerSettings.txt)
 
 set_target_properties(WaveFile PROPERTIES FOLDER Libs)
 
-add_subdirectory(UT)
+#add_subdirectory(UT)
