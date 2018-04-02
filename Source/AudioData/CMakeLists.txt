@@ -4,7 +4,7 @@ add_library(AudioData ${source_files})
 
 include(${PROJECT_SOURCE_DIR}/CMakeSupport/CMakeLists.CompilerSettings.txt)
 
-add_subdirectory(UT)
+#add_subdirectory(UT)
 
 set_target_properties(AudioData PROPERTIES FOLDER Libs)
 
