@@ -15,7 +15,7 @@ if(DEBUG_TO_LOG_FILE)
 	add_definitions(-DDEBUG_TO_LOG_FILE)
 endif(DEBUG_TO_LOG_FILE)
 
-option(INCLUDE_GOOGLE_TEST "Pulldown GoogleTest and include it in the project" ON)
+option(INCLUDE_GOOGLE_TEST "Pulldown GoogleTest and include it in the project" OFF)
 
 option(MSVC_MULTI_THREADED_DLL_RUNTIME_LIB "Allows for setting the runtime lib for MSVC compiler to multi-threaded DLL" OFF)
 
