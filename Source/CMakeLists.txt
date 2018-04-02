@@ -18,10 +18,10 @@ option(INCLUDE_GOOGLE_TEST "Pulldown GoogleTest and include it in the project" O
 option(MSVC_MULTI_THREADED_DLL_RUNTIME_LIB "Allows for setting the runtime lib for MSVC compiler to multi-threaded DLL" OFF)
 
 # "Externals" consists of GoogleTest
-if(INCLUDE_GOOGLE_TEST)
-	include(${CMAKE_CURRENT_SOURCE_DIR}/CMakeSupport/CMakeLists.Externals.txt)
-	include_externals()
-endif()
+#if(INCLUDE_GOOGLE_TEST)
+#	include(${CMAKE_CURRENT_SOURCE_DIR}/CMakeSupport/CMakeLists.Externals.txt)
+#	include_externals()
+#endif()
 
 add_subdirectory(AudioData)
 add_subdirectory(Signal)
