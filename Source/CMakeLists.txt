@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.0)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 project(AudioLib)
+#set(CMAKE_CXX_FLAGS "-Wno-c++11-narrowing")
+add_compile_options("-Wno-c++11-narrowing")
 
 if(DEBUG_BUILD)
 	add_definitions(-DDEBUG_BUILD)
